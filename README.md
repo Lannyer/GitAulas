@@ -378,3 +378,38 @@ __git clear:__ limpa a tela.
 
 ---
 
+__git switch:__ é uma das divisões do comando **git checkout**, que estava "sobrecarregado de funções". Com ele você pode navegar entreas branchs.
+
+_Ex:_
+
+~~~
+git switch master
+git switch -c nova-branch
+git switch staging
+~~~
+> No primeiro exemplo está auterando para a branch master, no segundo exemplo ele cria uma nova branch e no terceiro ele realiza um _staging_.
+
+---
+
+__git restore:__ é outra das divisões do comando **git checkout**, recuperar, ou limpar, os arquivos locais. Se voce teve alguma mudança, uqe o que o ```git checkout --``` realizava.
+
+---
+
+__Cherry-picking:__ segundo o _Bitbucket_, é um poderoso comando que permite que commits de Git arbitrários sejam coletados como referência e anexados ao HEAD de trabalho atual. [Mais aqui.](https://www.atlassian.com/br/git/tutorials/cherry-pick)
+
+---
+
+__Rebase:__ é o proceso de auterar a base da branch do commit para outra, o que faz parecer que aquele commit foi feito em outra branch. [Mais aqui](https://www.atlassian.com/br/git/tutorials/rewriting-history/git-rebase.)
+
+---
+
+__git stash:__  segundo o _Bitbucket_, ele arquiva alterações que você fez na cópia de trabalho durante um determinado período, para que você possa trabalhar em outra coisa, depois voltar e fazer a reaplicação mais tarde. O stashing é útil quando você precisa alternar com rapidez o contexto e trabalhar em outra coisa, mas está no meio da alteração de código e não está pronto para fazer commit. [Mais aqui.](https://www.atlassian.com/br/git/tutorials/saving-changes/git-stash)
+
+---
+
+__git pop:__ sua vez, vai aplicar as mudanças de um stash à sua área de trabalho e remover aquele stash da pilha em seguida. O pop nada mais é do que um atalho para git stash apply seguido de git stash drop, segundo Jessica Temporal. Veja mais [aqui](https://jtemporal.com/entenda-a-diferenca-git-stash-pop-git-stash-apply/) e [aqui](https://jtemporal.com/entenda-a-diferenca-git-stash-pop-git-stash-apply/).
+
+---
+
+**_GIT Extra 02: Git Flow_**
+
