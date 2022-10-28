@@ -374,7 +374,7 @@ git push --tags
 
 ---
 
-__git clean:__ limpa a tela.
+__git clear:__ limpa a tela.
 
 ---
 
